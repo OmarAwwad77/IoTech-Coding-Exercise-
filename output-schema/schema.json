@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Devices": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Type": {
+              "type": "string"
+            },
+            "Info": {
+              "type": "string"
+            },
+            "Uuid": {
+              "type": "string"
+            },
+            "PayloadTotal": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "Name",
+            "Type",
+            "Info",
+            "Uuid",
+            "PayloadTotal"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Devices"
+  ]
+}

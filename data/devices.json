@@ -1,0 +1,73 @@
+{
+	"Devices": [{
+			"Name": "Temperature-device",
+			"Type": "Modbus",
+			"Info": "A Modbus device uuid:c92788ea-e57c-11ec-8fea-0242ac120002, used to read the temperature",
+			"Sensors": [{
+					"Name": "Sensor One",
+					"Payload": 5
+				},
+				{
+					"Name": "Sensor Two",
+					"Payload": 5
+				}
+			]
+		},
+		{
+			"Name": "Pressure-device",
+			"Type": "Modbus",
+			"Info": "A Modbus device uuid:22919442-e583-11ec-8fea-0242ac120002, used to read the pressure",
+			"Sensors": [{
+					"Name": "Sensor One",
+					"Payload": 66
+				},
+				{
+					"Name": "Sensor Two",
+					"Payload": 9
+				}
+			]
+		},
+		{
+			"Name": "Light-level-device",
+			"Type": "Bacnet",
+			"Info": "A Bacnet device uuid:29446300-e583-11ec-8fea-0242ac120002, used to read the light-level",
+			"Sensors": [{
+					"Name": "Sensor One",
+					"Payload": 2
+				},
+				{
+					"Name": "Sensor Two",
+					"Payload": 32
+				}
+			]
+		},
+		{
+			"Name": "accelerometer-device",
+			"Type": "OPC-UA",
+			"Info": "An OPC-UA device uuid:2d9596e0-e583-11ec-8fea-0242ac120002, used to read an accelerometer",
+			"Sensors": [{
+					"Name": "Sensor One",
+					"Payload": 2
+				},
+				{
+					"Name": "Sensor Two",
+					"Payload": 32
+				}
+			]
+		},
+		{
+			"Name": "Accelerometer-device",
+			"Type": "OPC-UA",
+			"Info": "An OPC-UA device uuid:31bd12a2-e583-11ec-8fea-0242ac120002, used to read an accelerometer",
+			"Sensors": [{
+					"Name": "Sensor One",
+					"Payload": 7
+				},
+				{
+					"Name": "Sensor Two",
+					"Payload": 87
+				}
+			]
+		}
+	]
+}
